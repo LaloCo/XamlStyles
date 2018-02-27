@@ -1,0 +1,11 @@
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\bin\Debug\netstandard2.0\XamlStyles.deps.json
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\bin\Debug\netstandard2.0\XamlStyles.dll
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\bin\Debug\netstandard2.0\XamlStyles.pdb
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\obj\Debug\netstandard2.0\XamlStyles.csprojResolveAssemblyReference.cache
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\obj\Debug\netstandard2.0\XamlStyles.csproj.CoreCompileInputs.cache
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\obj\Debug\netstandard2.0\XamlStyles.App.xaml.g.cs
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\obj\Debug\netstandard2.0\XamlStyles.MainPage.xaml.g.cs
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\obj\Debug\netstandard2.0\XamlStyles.AssemblyInfoInputs.cache
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\obj\Debug\netstandard2.0\XamlStyles.AssemblyInfo.cs
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\obj\Debug\netstandard2.0\XamlStyles.dll
+C:\Users\lalor\source\repos\XamlStyles\XamlStyles\XamlStyles\obj\Debug\netstandard2.0\XamlStyles.pdb
