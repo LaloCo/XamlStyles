@@ -56,12 +56,15 @@
 
         <!--Third row-->
         <Button Grid.Row="2"
-                Text="7"/>
+                Text="7"
+                Style="{StaticResource numberButton}"/>
         <Button Grid.Row="2"
                 Grid.Column="1"
+                Style="{StaticResource numberButton}"
                 Text="8"/>
         <Button Grid.Row="2"
                 Grid.Column="2"
+                Style="{StaticResource numberButton}"
                 Text="9"/>
         <Button Grid.Row="2"
                 Grid.Column="3"
@@ -69,12 +72,15 @@
 
         <!--Fourth row-->
         <Button Grid.Row="3"
+                Style="{StaticResource numberButton}"
                 Text="4"/>
         <Button Grid.Row="3"
                 Grid.Column="1"
+                Style="{StaticResource numberButton}"
                 Text="5"/>
         <Button Grid.Row="3"
                 Grid.Column="2"
+                Style="{StaticResource numberButton}"
                 Text="6"/>
         <Button Grid.Row="3"
                 Grid.Column="3"
@@ -82,12 +88,15 @@
 
         <!--Fifth row-->
         <Button Grid.Row="4"
+                Style="{StaticResource numberButton}"
                 Text="1"/>
         <Button Grid.Row="4"
                 Grid.Column="1"
+                Style="{StaticResource numberButton}"
                 Text="2"/>
         <Button Grid.Row="4"
                 Grid.Column="2"
+                Style="{StaticResource numberButton}"
                 Text="3"/>
         <Button Grid.Row="4"
                 Grid.Column="3"
@@ -96,9 +105,11 @@
         <!--Sixth row-->
         <Button Grid.Row="5"
                 Grid.ColumnSpan="2"
+                Style="{StaticResource numberButton}"
                 Text="0"/>
         <Button Grid.Row="5"
                 Grid.Column="2"
+                Style="{StaticResource numberButton}"
                 Text="."/>
         <Button Grid.Row="5"
                 Grid.Column="3"
