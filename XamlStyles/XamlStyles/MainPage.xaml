@@ -13,7 +13,16 @@
 
             <Style TargetType="Button" x:Key="numberButton">
                 <Setter Property="FontSize" Value="30"/>
-                <Setter Property="BackgroundColor" Value="DodgerBlue"/>
+                <Setter Property="BackgroundColor" Value="#555555"/>
+            </Style>
+
+            <Style TargetType="Button" x:Key="operatorButton" BasedOn="{StaticResource numberButton}">
+                <Setter Property="BackgroundColor" Value="Orange"/>
+            </Style>
+
+            <Style TargetType="Button" x:Key="otherButton" BasedOn="{StaticResource numberButton}">
+                <Setter Property="BackgroundColor" Value="#E5E5E5"/>
+                <Setter Property="TextColor" Value="#555555"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
@@ -43,14 +52,18 @@
 
         <!--Second row-->
         <Button Grid.Row="1"
+                Style="{StaticResource otherButton}"
                 Text="AC"/>
         <Button Grid.Row="1"
                 Grid.Column="1"
+                Style="{StaticResource otherButton}"
                 Text="+/-"/>
         <Button Grid.Row="1"
                 Grid.Column="2"
+                Style="{StaticResource otherButton}"
                 Text="%"/>
         <Button Grid.Row="1"
+                Style="{StaticResource operatorButton}"
                 Grid.Column="3"
                 Text="/"/>
 
@@ -68,6 +81,7 @@
                 Text="9"/>
         <Button Grid.Row="2"
                 Grid.Column="3"
+                Style="{StaticResource operatorButton}"
                 Text="*"/>
 
         <!--Fourth row-->
@@ -84,6 +98,7 @@
                 Text="6"/>
         <Button Grid.Row="3"
                 Grid.Column="3"
+                Style="{StaticResource operatorButton}"
                 Text="-"/>
 
         <!--Fifth row-->
@@ -100,6 +115,7 @@
                 Text="3"/>
         <Button Grid.Row="4"
                 Grid.Column="3"
+                Style="{StaticResource operatorButton}"
                 Text="+"/>
 
         <!--Sixth row-->
@@ -113,6 +129,7 @@
                 Text="."/>
         <Button Grid.Row="5"
                 Grid.Column="3"
+                Style="{StaticResource operatorButton}"
                 Text="="/>
     </Grid>
 
