@@ -10,6 +10,11 @@
                 <Setter Property="FontSize" Value="30"/>
                 <Setter Property="BackgroundColor" Value="Orange"/>
             </Style>
+
+            <Style TargetType="Button" x:Key="numberButton">
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="BackgroundColor" Value="DodgerBlue"/>
+            </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
 
